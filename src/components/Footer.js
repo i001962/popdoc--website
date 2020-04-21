@@ -19,13 +19,6 @@ const Footer = () => {
       <div className='container'>
         <div className='row' style={{ minHeight: '200px' }}>
           <div className='col-12 col-sm-4 col-md-2'>
-            <h5>Download</h5>
-            <ul>
-              <li><Link to='/download'>Qri Desktop</Link></li>
-              <li><ExternalLink to='https://github.com/qri-io/qri/releases'>Qri CLI</ExternalLink></li>
-            </ul>
-          </div>
-          <div className='col-12 col-sm-4 col-md-2'>
             <h5>Learn</h5>
             <ul>
               <li><Link to='/docs'>Tutorials</Link></li>
@@ -37,28 +30,27 @@ const Footer = () => {
             <h5>Company</h5>
             <ul>
               <li><Link to='/about'>About</Link></li>
-              <li><ExternalLink to='https://medium.com/qri-io'>Blog</ExternalLink></li>
               <li><Link to='/jobs'>Jobs</Link></li>
               <li><Link to='/contact'>Contact</Link></li>
             </ul>
           </div>
           <div className='col-12 col-sm-4 col-md-2'>
-            <h5>Explore</h5>
+            <h5>Discover</h5>
             <ul>
-              <li><ExternalLink to='https://qri.cloud'>Dataset Search</ExternalLink></li>
-              <li><ExternalLink to='https://qri.cloud'>Qri.cloud</ExternalLink></li>
+              <li><ExternalLink to='#'>Public µSites</ExternalLink></li>
+              <li><ExternalLink to='#'>Search topics</ExternalLink></li>
             </ul>
           </div>
           <div className='col-12 col-md-4 text-md-right'>
             <ul className='list-inline social'>
               <li className='list-inline-item' onClick={ () => { fireEvent('social-link-click', 'github') }}>
-                <ExternalLink to='https://github.com/qri-io'><FontAwesomeIcon icon={faGithub}/></ExternalLink>
+                <ExternalLink to='https://github.com/'><FontAwesomeIcon icon={faGithub}/></ExternalLink>
               </li>
               <li className='list-inline-item' onClick={ () => { fireEvent('social-link-click', 'youtube') }}>
                 <ExternalLink to='https://www.youtube.com/channel/UC7E3_hURgFO2mVCLDwPSyOQ'><FontAwesomeIcon icon={faYoutube}/></ExternalLink>
               </li>
               <li className='list-inline-item' onClick={ () => { fireEvent('social-link-click', 'twitter') }}>
-                <ExternalLink to='https://twitter.com/qri_io'><FontAwesomeIcon icon={faTwitter}/></ExternalLink>
+                <ExternalLink to='https://twitter.com/'><FontAwesomeIcon icon={faTwitter}/></ExternalLink>
               </li>
               <li className='list-inline-item' onClick={ () => { fireEvent('social-link-click', 'discord') }}>
                 <ExternalLink to='https://discordapp.com/invite/thkJHKj'><FontAwesomeIcon icon={faDiscord}/></ExternalLink>
@@ -68,7 +60,7 @@ const Footer = () => {
         </div>
         <div className='row'>
           <div className='col-12 col-sm-6 sub-footer'>
-            <span className='sub-footer-item'>&copy; 2020 qri, inc.</span>
+            <span className='sub-footer-item'>&copy; 2020 The Memphis Project, Inc.</span>
           </div>
           <div className='col-12 col-sm-6 sub-footer text-sm-right'>
             <ul className='list-inline'>

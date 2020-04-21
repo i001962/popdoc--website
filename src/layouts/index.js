@@ -34,10 +34,10 @@ const IndexLayout = (props) => {
   return (
     <div className='main-container'>
       <Head data={{
-        title: 'Qri',
-        description: 'Qri is an open source version control and sharing system for datasets',
-        image: 'https://qri.io/img/twitter_card_image.png',
-        imageAlt: 'The Qri Logo',
+        title: 'PopDoc',
+        description: 'PopDoc when you want to share your research.',
+        image: 'https://popdoc.io/img/twitter_card_image.png',
+        imageAlt: 'The PopDoc Logo',
         url: location.href
       }}/>
       <Header location={location} showSidebar={isDocs} />

@@ -2,23 +2,23 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://qri.io',
+    siteUrl: 'https://popdoc.io',
     gaTrackingId: null
   },
   header: {
-    logo: 'https://qri.cloud/assets/apple-touch-icon.png',
+    logo: '/img/graphics/logo.png',
     logoLink: '/',
-    title: 'qri',
+    title: 'from The Memphis Project',
     githubUrl: '',
     helpUrl: '',
     tweetText: '',
     links: [
       { text: 'About', link: '/about' },
-      { text: 'Datasets', link: 'https://qri.cloud' },
+      // { text: 'Datasets', link: 'https://qri.cloud' },
       { text: 'Jobs', link: '/jobs' },
-      { text: 'Blog', link: 'https://medium.com/qri-io' },
-      { text: 'Docs', link: '/docs' },
-      { text: 'Download', link: '/download' }
+      // { text: 'Blog', link: 'https://medium.com/qri-io' },
+      { text: 'Docs', link: '/docs' }
+      // { text: 'Download', link: '/download' }
     ],
     search: {
       enabled: false,
@@ -44,8 +44,8 @@ const config = {
     ignoreIndex: true
   },
   siteMetadata: {
-    title: 'Qri.io',
-    description: 'Qri Website and Documentation',
+    title: 'popdoc.io',
+    description: 'popdoc Website and Documentation',
     ogImage: null,
     docsLocation: 'https://github.com/qri-io/website/blob/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg'
