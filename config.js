@@ -13,11 +13,11 @@ const config = {
     helpUrl: '',
     tweetText: '',
     links: [
-      { text: 'About', link: '/about' },
+      // { text: 'About', link: '/about' },
       // { text: 'Datasets', link: 'https://qri.cloud' },
-      { text: 'Jobs', link: '/jobs' },
+      { text: 'Jobs', link: '/jobs' }
       // { text: 'Blog', link: 'https://medium.com/qri-io' },
-      { text: 'Docs', link: '/docs' }
+      // { text: 'Docs', link: '/docs' }
       // { text: 'Download', link: '/download' }
     ],
     search: {

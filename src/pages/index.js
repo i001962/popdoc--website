@@ -29,12 +29,12 @@ const IndexPage = () => {
                 <table className='hero-table'>
                   <tbody>
                     <tr>
-                      <td className='highlighted-border-bottom'><span>Research</span></td>
-                      <td><span>with</span></td>
+                      <td className='highlighted-border-bottom'><span>What do</span></td>
+                      <td><span>you</span></td>
                     </tr>
                     <tr>
                       <td className='highlighted'>
-                        <span>Friends</span>
+                        <span>know?</span>
                         <div className='plus-horizontal'/>
                         <div className='plus-vertical'/>
                       </td>
