@@ -8,13 +8,13 @@ import ExternalLink from '../../components/ExternalLink'
 const JobsPage = () => (
   <div className='container jobs-page'>
     <Head data={{
-      title: 'Jobs at Qri',
-      description: 'A running list of job openings at Qri. Join our team! If you see it here, the job&apos;s still open.'
+      title: 'Jobs at The Memphis Project',
+      description: 'A running list of job openings at The Memphis Project. Join our team!'
     }} />
 
     <h1>Jobs</h1>
 
-    <p>A running list of job openings at Qri. Join our team! If you see it here, the job&apos;s still open.</p>
+    <p>A running list of job openings at The Memphis Project. Join our team!</p>
 
     <StaticQuery
       query={graphql`
@@ -55,10 +55,10 @@ const JobsPage = () => (
 
         return (
           <div className="alert alert-info py-3 my-5" role="alert">
-            <strong>qri has no (defined) open positions at this time</strong>
+            <strong>The Memphis Project has no (defined) open positions at this time</strong>
             <br/>
             <br/>
-            We’re always looking for great talent, if you’re interested in a position at Qri, please jump in <ExternalLink to='https://discordapp.com/invite/thkJHKj'>our Discord</ExternalLink>, or <a href='mailto:hello@qri.io'>email us</a>.
+            We’re always looking for great talent, if you’re interested in a position, please jump in <ExternalLink to='#'>our Slack</ExternalLink>.
           </div>
         )
       }}

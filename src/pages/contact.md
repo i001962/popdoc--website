@@ -5,6 +5,6 @@ metaDescription: "How to get in touch with Qri"
 
 # Contact Us
 
-**twitter**: [@qri_io](https://twitter.com/qri_io)
+**twitter**: [@popdoc_io](https://twitter.com/popdoc_io)
 
-**email**: hello [at] qri.io
+**email**: hello [at] popdoc.io

@@ -14,11 +14,11 @@ const Head = ({ data, children }) => {
     <>
       <Helmet>
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@qri_io" />
+        <meta name="twitter:site" content="@popdoc_io" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Qri.io"/>
+        <meta property="og:site_name" content="popdoc.io"/>
 
-        { title && <title>{title} | Qri.io</title> }
+        { title && <title>{title} | popdoc.io</title> }
         { title && <meta name="twitter:title" content={title} /> }
         { title && <meta property="og:title" content={title} /> }
 

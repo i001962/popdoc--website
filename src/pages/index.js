@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch, faEnvelope, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 // import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import ExternalLink from '../components/ExternalLink'
-import FeaturedDataset from '../components/FeaturedDataset'
+// import FeaturedDataset from '../components/FeaturedDataset'
 import BlogCard from '../components/BlogCard'
 
 // the first argument in track() becomes the google analytics 'Action' property after passing through segment
@@ -41,17 +41,17 @@ const IndexPage = () => {
                     </tr>
                   </tbody>
                 </table>
-                <p style={{ width: '75%', marginBottom: '1.5rem' }}>popdoc simplifies the gathering, organizing and sharing of content important to you and your audience.</p>
-                <Link to='/download'>
+                <p style={{ width: '75%', marginBottom: '1.5rem' }}>   popdoc simplifies the gathering, organizing and sharing of content important to you and your audience.</p>
+                <Link to='/welcome'>
                   <div
                     className='btn btn-lg btn-primary mr-4'
                     style={{ backgroundColor: '#5ED1E6' }}
-                    onClick={ () => { fireEvent('button-click', 'download-top') }}
+                    onClick={ () => { fireEvent('button-click', 'tryit-top') }}
                   >
                     try it now
                   </div>
                 </Link>
-                <Link to='/docs'>
+                <Link to='/features'>
                   <div
                     className='btn btn-lg btn-secondary'
                     onClick={ () => { fireEvent('button-click', 'learn-more-top') }}
@@ -70,7 +70,7 @@ const IndexPage = () => {
           <div className='container'>
             <div className='row'>
               <div className='col-12 col-sm-9 offset-sm-0 col-md-6'>
-                <h1 className='col-12 col-md-9 text-center text-md-right m-0 mb-2'>The world moves faster, so can you.</h1>
+                <h1 className='col-12 col-md-9 text-center text-md-right m-0 mb-2'>The world moves fast, so can you.</h1>
                 <p className='col-12 col-md-8 text-center text-md-left offset-md-4'>Today’s tools create highways for exchanging information, but they do not help you use that information without drowning in overload.</p>
               </div>
             </div>
@@ -86,24 +86,24 @@ const IndexPage = () => {
                   backgroundImage: 'url("/img/homepage/feature_01_version.svg")'
                 }}>
                 </div>
-                <h3>Create &amp; Currate</h3>
-                <p>Gather ideas into collections that express your thoughts on any subject. Reuse live views of content as it changes in the cloud.</p>
+                <h3>Digital life is fragmented and disorganized.</h3>
+                <p>It is too easy to create content, and too hard to find and share the best path between those islands of content.</p>
               </div>
               <div className='col-12 col-sm-6 col-md-4 feature-col'>
                 <div className='index-feature-image' style={{
                   backgroundImage: 'url("/img/homepage/feature_02_share.svg")'
                 }}>
                 </div>
-                <h3>Share</h3>
-                <p>Each Collection has its own access controlls so you decided who may view, comment, or contribute.</p>
+                <h3>More than messaging or social media.</h3>
+                <p>Messaging and social media are streams appropriate for the moment, but sometimes you need to pick and choose over time.</p>
               </div>
               <div className='col-12 col-sm-6 col-md-4 feature-col'>
                 <div className='index-feature-image' style={{
                   backgroundImage: 'url("/img/homepage/feature_03_automate.svg")'
                 }}>
                 </div>
-                <h3>Publish</h3>
-                <p>With a single click, publish collections directly in micro websites designed to say more than instant messages and be easier to create and consume than documents/websites.</p>
+                <h3>Less than websites or documents.</h3>
+                <p>The pace of modern life makes it hard to create or consume complex documents and websites designed for slower times, sometimes less is more.</p>
               </div>
               {/* <div className='col-12 col-sm-6 col-md-4 feature-col'>
                 <div className='index-feature-image' style={{
@@ -126,13 +126,16 @@ const IndexPage = () => {
         </div>
       </div>
 
-      <div className='index-row'>
+      <div className='index-row spotlight'>
         <div className='container mb-5'>
           <div className='row mb-4'>
-            <div className='col-12 col-md-4 px-md-1'>
-              <h2 className='my-2'>Featured µSites</h2>
+            <div className='col-12 col-md-12 px-md-1'>
+              <h1 className='mt-0 mb-1 text-center'>popdoc is free</h1>
+              <h3 className='my-3 text-center'>So you can organize, share and work together during this time of forced isolation.</h3>
+              {/*  <h2 className='my-2'>Featured µSites</h2>
+              */}
             </div>
-            <div className='col-12 col-md-8 px-md-1'>
+            {/*  <div className='col-12 col-md-8 px-md-1'>
               <form
                 method="GET"
                 action="https://qri.cloud/search"
@@ -143,9 +146,9 @@ const IndexPage = () => {
                 <FontAwesomeIcon icon={faSearch} />
                 <input type="submit" style={{ display: 'none' }} />
               </form>
-            </div>
+            </div> */}
           </div>
-          <div className='row'>
+          {/* <div className='row'>
             <div className='col-12 col-md-4 px-md-1 d-flex align-items-stretch'>
               <FeaturedDataset
                 dataset={{
@@ -212,9 +215,9 @@ const IndexPage = () => {
                 onClick={ () => { fireEvent('featured-dataset-click', 'chriswhong/nyc_bridge_bike_counts_2019') }}
               />
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className='container'>
+        {/* <div className='container'>
           <div className='col-9 offset-2 col-sm-12 offset-sm-0'>
             <div
               className='text-center more-link'
@@ -223,7 +226,7 @@ const IndexPage = () => {
               <ExternalLink to='#'>explore more featured µSites &nbsp;<FontAwesomeIcon icon={faChevronRight} /></ExternalLink>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className='index-row spotlight' style={{ position: 'relative', paddingBottom: '160px' }}>
@@ -239,15 +242,15 @@ const IndexPage = () => {
               Discover and clone others&apos; content;<br/>
               Author original works & edit with collaborators.
               </div>
-              <Link to='/download'>
+              <Link to='/welcome'>
                 <div
                   className='btn btn-lg btn-primary mr-4'
-                  onClick={ () => { fireEvent('button-click', 'download-bottom') }}
+                  onClick={ () => { fireEvent('button-click', 'tryit-bottom') }}
                 >
                   try it now
                 </div>
               </Link>
-              <Link to='/docs'>
+              <Link to='/features'>
                 <div
                   className='btn btn-lg btn-secondary'
                   onClick={ () => { fireEvent('button-click', 'learn-more-bottom') }}
