@@ -41,7 +41,7 @@ const IndexPage = () => {
                     </tr>
                   </tbody>
                 </table>
-                <p style={{ width: '75%', marginBottom: '1.5rem' }}>   popdoc simplifies the gathering, organizing and sharing of content important to you and your audience.</p>
+                <p style={{ width: '75%', marginBottom: '1.5rem' }}>   A simple way to gather, organize and share content important to you and your audience.</p>
                 <Link to='/welcome'>
                   <div
                     className='btn btn-lg btn-primary mr-4'
