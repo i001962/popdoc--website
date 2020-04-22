@@ -8,7 +8,7 @@ const config = {
   header: {
     logo: '/img/graphics/logo.png',
     logoLink: '/',
-    title: 'from The Memphis Project',
+    title: '',
     githubUrl: '',
     helpUrl: '',
     tweetText: '',

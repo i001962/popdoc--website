@@ -83,7 +83,7 @@ const IndexPage = () => {
             <div className='row'>
               <div className='col-12 col-sm-6 col-md-4 feature-col'>
                 <div className='index-feature-image' style={{
-                  backgroundImage: 'url("/img/homepage/feature_01_version.svg")'
+                  backgroundImage: 'url("/img/homepage/feature_02_share.svg")'
                 }}>
                 </div>
                 <h3>Digital life is fragmented and disorganized.</h3>
@@ -91,7 +91,7 @@ const IndexPage = () => {
               </div>
               <div className='col-12 col-sm-6 col-md-4 feature-col'>
                 <div className='index-feature-image' style={{
-                  backgroundImage: 'url("/img/homepage/feature_02_share.svg")'
+                  backgroundImage: 'url("/img/homepage/feature_01_version.svg")'
                 }}>
                 </div>
                 <h3>More than messaging or social media.</h3>
@@ -105,22 +105,6 @@ const IndexPage = () => {
                 <h3>Less than websites or documents.</h3>
                 <p>The pace of modern life makes it hard to create or consume complex documents and websites designed for slower times, sometimes less is more.</p>
               </div>
-              {/* <div className='col-12 col-sm-6 col-md-4 feature-col'>
-                <div className='index-feature-image' style={{
-                  backgroundImage: 'url("/img/homepage/feature_04_query.svg")'
-                }}>
-                </div>
-                <h3>Query</h3>
-                <p>Your entire collection of datasets works like a SQL database.</p>
-              </div>
-              <div className='col-12 col-sm-6 col-md-4 feature-col'>
-                <div className='index-feature-image' style={{
-                  backgroundImage: 'url("/img/homepage/feature_05_integrate.svg")'
-                }}>
-                </div>
-                <h3>Integrate</h3>
-                <p>Export any version to a format you can use, or wire Qri up to your workflow with command line tools & language integrations.</p>
-              </div> */}
             </div>
           </div>
         </div>
@@ -266,21 +250,50 @@ const IndexPage = () => {
       <div className='index-row spotlight' style={{ paddingBottom: '140px' }}>
         <div className='container' style={{ position: 'relative' }}>
           <div className='row'>
-            <div className='col-12 col-md-6 offset-md-2' style={{ zIndex: 5 }}>
-              <h2 className='mt-0 mb-4'>Integrate with Cloud Apps</h2>
+            <div className='col-12 col-md-4 offset-md-2' style={{ zIndex: 5 }}>
+              <h2 className='mt-0 mb-4'>Publish & Engage</h2>
               <div className='mb-3'>
-              Drop in access to popular cloud servcies like Gmail, Dropbox, OneDrive and more...
-              </div>
-              <div className='inline-code-highlight'>
-              comming soon
+              One tap creates a beautiful engaging mini website. We call this µSites.
               </div>
             </div>
-            <div className='col-12 col-md-4 p-0' style={{ zIndex: 5 }}>
-              <img src="/img/homepage/cli_screenshot.png" className="img-fluid" />
+            <div className='col-12 col-md-6 p-0' style={{ zIndex: 5 }}>
+              <img src="/img/homepage/µsite_ScreenShot.png" className="img-fluid" />
             </div>
           </div>
           {/* <div className='blob-trees-container' />
           */}
+        </div>
+      </div>
+      <div className='index-blue'>
+        <div className='index-row' style={{ paddingBottom: '80px' }}>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-12 col-sm-6 col-md-4 feature-col'>
+                {/* <div className='index-feature-image' style={{
+                  // backgroundImage: 'url("/img/homepage/feature_01_version.svg")'
+                }}>
+                </div> */}
+                <h3>Teams & Communities</h3>
+                <p>Popdoc makes it easy to find and invite people to view your thoughts. They can comment on what they see.  If you are part of a team shared collections have shared editing.</p>
+              </div>
+              <div className='col-12 col-sm-6 col-md-4 feature-col'>
+                {/* <div className='index-feature-image' style={{
+                  // backgroundImage: 'url("/img/homepage/feature_02_share.svg")'
+                }}>
+                </div> */}
+                <h3>Go Viral</h3>
+                <p>You can easily share microsites on social media with a simple URL.  Anyone visiting your microsite can share it on social media.  All information links back to its home in cloud, making it easy to share your work to existing audiences.</p>
+              </div>
+              <div className='col-12 col-sm-6 col-md-4 feature-col'>
+                {/* <div className='index-feature-image' style={{
+                  // backgroundImage: 'url("/img/homepage/feature_01_version.svg")'
+                }}>
+                </div> */}
+                <h3>The Future</h3>
+                <p>he future is stepping out of the old idea of isolated applications and websites, and  creating a way for anyone to use the best of what already exists without giving up the apps and websites they love.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className='index-row spotlight' style={{ paddingBottom: 0 }}>
