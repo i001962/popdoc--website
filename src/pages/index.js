@@ -253,7 +253,7 @@ const IndexPage = () => {
             <div className='col-12 col-md-4 offset-md-2' style={{ zIndex: 5 }}>
               <h2 className='mt-0 mb-4'>Publish & Engage</h2>
               <div className='mb-3'>
-              One tap creates a beautiful engaging mini website. We call this µSites.
+              One tap creates a beautiful engaging mini website. We call these µSites.
               </div>
             </div>
             <div className='col-12 col-md-6 p-0' style={{ zIndex: 5 }}>
