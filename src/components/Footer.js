@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faYoutube, faTwitter, faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faYoutube, faTwitter, faSlack } from '@fortawesome/free-brands-svg-icons'
 import ExternalLink from './ExternalLink'
 
 const Footer = () => {
@@ -21,8 +21,8 @@ const Footer = () => {
           <div className='col-12 col-sm-4 col-md-2'>
             <h5>Learn</h5>
             <ul>
-              <li><Link to='/docs'>Tutorials</Link></li>
-              <li><Link to='/docs'>Docs</Link></li>
+              {/* <li><Link to='/docs'>Tutorials</Link></li>
+              <li><Link to='/docs'>Docs</Link></li> */}
               <li><Link to='/faq'>FAQs</Link></li>
             </ul>
           </div>
@@ -47,13 +47,13 @@ const Footer = () => {
                 <ExternalLink to='https://github.com/'><FontAwesomeIcon icon={faGithub}/></ExternalLink>
               </li>
               <li className='list-inline-item' onClick={ () => { fireEvent('social-link-click', 'youtube') }}>
-                <ExternalLink to='https://www.youtube.com/channel/UC7E3_hURgFO2mVCLDwPSyOQ'><FontAwesomeIcon icon={faYoutube}/></ExternalLink>
+                <ExternalLink to='https://www.youtube.com/channel/'><FontAwesomeIcon icon={faYoutube}/></ExternalLink>
               </li>
               <li className='list-inline-item' onClick={ () => { fireEvent('social-link-click', 'twitter') }}>
                 <ExternalLink to='https://twitter.com/'><FontAwesomeIcon icon={faTwitter}/></ExternalLink>
               </li>
               <li className='list-inline-item' onClick={ () => { fireEvent('social-link-click', 'discord') }}>
-                <ExternalLink to='https://discordapp.com/invite/thkJHKj'><FontAwesomeIcon icon={faDiscord}/></ExternalLink>
+                <ExternalLink to='https://slack.com'><FontAwesomeIcon icon={faSlack}/></ExternalLink>
               </li>
             </ul>
           </div>

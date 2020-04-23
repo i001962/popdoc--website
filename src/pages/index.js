@@ -274,14 +274,14 @@ const IndexPage = () => {
                 }}>
                 </div> */}
                 <h3>Teams & Communities</h3>
-                <p>Popdoc makes it easy to find and invite people to view your thoughts. They can comment on what they see.  If you are part of a team shared collections have shared editing.</p>
+                <p>Find and invite people to view and comment on your thoughts. Leading a team or community? Shared and invite moderators.</p>
               </div>
               <div className='col-12 col-sm-6 col-md-4 feature-col'>
                 {/* <div className='index-feature-image' style={{
                   // backgroundImage: 'url("/img/homepage/feature_02_share.svg")'
                 }}>
                 </div> */}
-                <h3>Go Viral</h3>
+                <h3>Go Viral (in a good way)</h3>
                 <p>You can easily share microsites on social media with a simple URL.  Anyone visiting your microsite can share it on social media.  All information links back to its home in cloud, making it easy to share your work to existing audiences.</p>
               </div>
               <div className='col-12 col-sm-6 col-md-4 feature-col'>
@@ -289,8 +289,8 @@ const IndexPage = () => {
                   // backgroundImage: 'url("/img/homepage/feature_01_version.svg")'
                 }}>
                 </div> */}
-                <h3>The Future</h3>
-                <p>he future is stepping out of the old idea of isolated applications and websites, and  creating a way for anyone to use the best of what already exists without giving up the apps and websites they love.</p>
+                <h3>The Future is Together</h3>
+                <p>Step out of isolated applications and websites and into a new way of sharing where anyone may use the best of what already exists.</p>
               </div>
             </div>
           </div>
@@ -302,7 +302,7 @@ const IndexPage = () => {
             <div className='col-12'>
               <h1 className='mt-0 mb-1'>What&apos;s your story?</h1>
               <div className='mb-4'>
-              Share what you&apos;ve learned for the common good.
+                Share what you&apos;ve learned for the common good. Rather keep it private or just for family, friends and colleagues? No problem.
               </div>
             </div>
             <div className='col-12 col-md-4'>
