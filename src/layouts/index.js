@@ -35,7 +35,7 @@ const IndexLayout = (props) => {
     <div className='main-container'>
       <Head data={{
         title: 'PopDoc',
-        description: 'PopDoc when you want to share your research.',
+        description: 'PopDoc - What do you know?',
         image: 'https://popdoc.io/img/twitter_card_image.png',
         imageAlt: 'The PopDoc Logo',
         url: location.href

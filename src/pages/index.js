@@ -63,7 +63,7 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-        <div className='white-triangle'></div>
+        <div className='white-triangle'></div> {/* not white anymore */}
       </div>
       <div className='index-blue'>
         <div style={{ padding: '75px 0px 38px 0' }}>
@@ -86,7 +86,7 @@ const IndexPage = () => {
                   backgroundImage: 'url("/img/homepage/feature_02_share.svg")'
                 }}>
                 </div>
-                <h3>Digital life is fragmented and disorganized.</h3>
+                <h3>Digital life is fragmented.</h3>
                 <p>It is too easy to create content, and too hard to find and share the best path between those islands of content.</p>
               </div>
               <div className='col-12 col-sm-6 col-md-4 feature-col'>
@@ -94,7 +94,7 @@ const IndexPage = () => {
                   backgroundImage: 'url("/img/homepage/feature_01_version.svg")'
                 }}>
                 </div>
-                <h3>More than messaging or social media.</h3>
+                <h3>More than messaging.</h3>
                 <p>Messaging and social media are streams appropriate for the moment, but sometimes you need to pick and choose over time.</p>
               </div>
               <div className='col-12 col-sm-6 col-md-4 feature-col'>
@@ -102,7 +102,7 @@ const IndexPage = () => {
                   backgroundImage: 'url("/img/homepage/feature_03_automate.svg")'
                 }}>
                 </div>
-                <h3>Less than websites or documents.</h3>
+                <h3>Less than a website.</h3>
                 <p>The pace of modern life makes it hard to create or consume complex documents and websites designed for slower times, sometimes less is more.</p>
               </div>
             </div>
@@ -212,56 +212,58 @@ const IndexPage = () => {
           </div>
         </div> */}
       </div>
-
-      <div className='index-row spotlight' style={{ position: 'relative', paddingBottom: '160px' }}>
-        <div className='blob-diff-container' />
-        <div className='container'>
-          <div className='row'>
-            <div className='col-12 col-md-6'>
-              <img src="/img/homepage/desktop_screenshot.png" className="img-fluid" />
-            </div>
-            <div className='col-12 col-md-6'>
-              <h2 className='mt-0 mb-4'>Create & Collaborate</h2>
-              <div className='mb-4'>
-              Discover and clone others&apos; content;<br/>
-              Author original works & edit with collaborators.
+      <div className='index-blue'>
+        <div className='index-row spotlight' style={{ position: 'relative', paddingBottom: '160px' }}>
+          <div className='blob-diff-container' />
+          <div className='container'>
+            <div className='row'>
+              <div className='col-12 col-md-6'>
+                <img src="/img/homepage/desktop_screenshot.png" className="img-fluid" />
               </div>
-              <Link to='/welcome'>
-                <div
-                  className='btn btn-lg btn-primary mr-4'
-                  onClick={ () => { fireEvent('button-click', 'tryit-bottom') }}
-                >
-                  try it now
+              <div className='col-12 col-md-6'>
+                <h2 className='mt-0 mb-4'>Create & Collaborate</h2>
+                <div className='mb-4'>
+                Discover and save content;<br/>
+                Author original works and edit with collaborators.
                 </div>
-              </Link>
-              <Link to='/features'>
-                <div
-                  className='btn btn-lg btn-secondary'
-                  onClick={ () => { fireEvent('button-click', 'learn-more-bottom') }}
-                >
-                  learn more
-                </div>
-              </Link>
+                <Link to='/welcome'>
+                  <div
+                    className='btn btn-lg btn-primary mr-4'
+                    onClick={ () => { fireEvent('button-click', 'tryit-bottom') }}
+                  >
+                    try it now
+                  </div>
+                </Link>
+                <Link to='/features'>
+                  <div
+                    className='btn btn-lg btn-secondary'
+                    onClick={ () => { fireEvent('button-click', 'learn-more-bottom') }}
+                  >
+                    learn more
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div className='index-row spotlight' style={{ paddingBottom: '140px' }}>
-        <div className='container' style={{ position: 'relative' }}>
-          <div className='row'>
-            <div className='col-12 col-md-4 offset-md-2' style={{ zIndex: 5 }}>
-              <h2 className='mt-0 mb-4'>Publish & Engage</h2>
-              <div className='mb-3'>
-              One tap creates a beautiful engaging mini website. We call these µSites.
+      <div className='index-blue'>
+        <div className='index-row spotlight' style={{ paddingBottom: '140px' }}>
+          <div className='container' style={{ position: 'relative' }}>
+            <div className='row'>
+              <div className='col-12 col-md-4 offset-md-2' style={{ zIndex: 5 }}>
+                <h2 className='mt-0 mb-4'>Publish & Engage</h2>
+                <div className='mb-3'>
+                One tap creates a beautiful engaging mini website.
+                </div>
+              </div>
+              <div className='col-12 col-md-6 p-0' style={{ zIndex: 5 }}>
+                <img src="/img/homepage/µsite_ScreenShot.png" className="img-fluid" />
               </div>
             </div>
-            <div className='col-12 col-md-6 p-0' style={{ zIndex: 5 }}>
-              <img src="/img/homepage/µsite_ScreenShot.png" className="img-fluid" />
-            </div>
+            {/* <div className='blob-trees-container' />
+            */}
           </div>
-          {/* <div className='blob-trees-container' />
-          */}
         </div>
       </div>
       <div className='index-blue'>

@@ -45,7 +45,7 @@ const config = {
   },
   siteMetadata: {
     title: 'popdoc.io',
-    description: 'popdoc Website and Documentation',
+    description: 'popdoc Website',
     ogImage: null,
     docsLocation: 'https://github.com/qri-io/website/blob/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg'
