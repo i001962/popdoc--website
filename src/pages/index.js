@@ -3,10 +3,10 @@ import { Link } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 // import { faGithub } from '@fortawesome/free-brands-svg-icons'
-
 import ExternalLink from '../components/ExternalLink'
 // import FeaturedDataset from '../components/FeaturedDataset'
-import BlogCard from '../components/BlogCard'
+// import BlogCard from '../components/BlogCard'
+import MsiteCard from '../components/msiteCard'
 
 // the first argument in track() becomes the google analytics 'Action' property after passing through segment
 // all events are of Action 'Homepage'
@@ -307,7 +307,8 @@ const IndexPage = () => {
                 Share what you&apos;ve learned for the common good. Rather keep it private or just for family, friends and colleagues? No problem.
               </div>
             </div>
-            <div className='col-12 col-md-4'>
+            <MsiteCard />
+            {/* <div className='col-12 col-md-4'>
               <BlogCard
                 title="Tracking a Bus Route's Data Footprint"
                 link='#'
@@ -336,7 +337,7 @@ const IndexPage = () => {
                 date='2020-02-24'
                 onClick={ () => { fireEvent('blog-card-click', 'nyc-bridge-bike-counts') }}
               />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className='container'>

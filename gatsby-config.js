@@ -16,6 +16,13 @@ const plugins = [
   'gatsby-plugin-emotion',
   'gatsby-plugin-remove-trailing-slashes',
   'gatsby-plugin-react-helmet',
+  { resolve: `gatsby-source-memphisio`,
+      options: {
+        // set yours up in .env file - only Published Collections are retrieved
+        userEmail: process.env.MEMPHIS_EMAIL,
+        passWord: process.env.MEMPHIS_PASSWORD
+      }
+    },
   {
     resolve: 'gatsby-source-filesystem',
     options: {
@@ -117,5 +124,9 @@ module.exports = {
     headerLinks: config.header.links,
     siteUrl: config.gatsby.siteUrl
   },
-  plugins: plugins
+  plugins: plugins,
+  mapping: {
+    "MemphisTiles.belongsTo": `MemphisCollections._id`,
+    "MemphisCollections.user._id": "MemphisUsers._id",
+  },
 }
